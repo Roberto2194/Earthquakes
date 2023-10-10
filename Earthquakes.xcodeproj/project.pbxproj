@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		62F26B1D2AD53B0600EA603E /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B1C2AD53B0600EA603E /* EarthquakesApp.swift */; };
-		62F26B1F2AD53B0600EA603E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B1E2AD53B0600EA603E /* ContentView.swift */; };
 		62F26B212AD53B0700EA603E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F26B202AD53B0700EA603E /* Assets.xcassets */; };
 		62F26B242AD53B0700EA603E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F26B232AD53B0700EA603E /* Preview Assets.xcassets */; };
+		62F26B2C2AD53B6C00EA603E /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B2B2AD53B6C00EA603E /* Quake.swift */; };
+		62F26B2E2AD53B8500EA603E /* Quake+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B2D2AD53B8500EA603E /* Quake+Color.swift */; };
+		62F26B312AD53BEF00EA603E /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B302AD53BEF00EA603E /* Quakes.swift */; };
+		62F26B332AD53C6F00EA603E /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B322AD53C6F00EA603E /* QuakeRow.swift */; };
+		62F26B352AD53C7F00EA603E /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B342AD53C7F00EA603E /* QuakeMagnitude.swift */; };
+		62F26B382AD53D1800EA603E /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B372AD53D1800EA603E /* Quakes+Toolbar.swift */; };
+		62F26B3A2AD53D4900EA603E /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B392AD53D4900EA603E /* SelectButton.swift */; };
+		62F26B3C2AD53D5E00EA603E /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B3B2AD53D5E00EA603E /* EditButton.swift */; };
+		62F26B3E2AD53DB100EA603E /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B3D2AD53DB100EA603E /* RefreshButton.swift */; };
+		62F26B402AD53DC500EA603E /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B3F2AD53DC500EA603E /* ToolbarStatus.swift */; };
+		62F26B422AD53DDD00EA603E /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F26B412AD53DDD00EA603E /* DeleteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62F26B192AD53B0600EA603E /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F26B1C2AD53B0600EA603E /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
-		62F26B1E2AD53B0600EA603E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62F26B202AD53B0700EA603E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F26B232AD53B0700EA603E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62F26B2B2AD53B6C00EA603E /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		62F26B2D2AD53B8500EA603E /* Quake+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Color.swift"; sourceTree = "<group>"; };
+		62F26B302AD53BEF00EA603E /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
+		62F26B322AD53C6F00EA603E /* QuakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		62F26B342AD53C7F00EA603E /* QuakeMagnitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeMagnitude.swift; sourceTree = "<group>"; };
+		62F26B372AD53D1800EA603E /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
+		62F26B392AD53D4900EA603E /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		62F26B3B2AD53D5E00EA603E /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		62F26B3D2AD53DB100EA603E /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		62F26B3F2AD53DC500EA603E /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
+		62F26B412AD53DDD00EA603E /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				62F26B1C2AD53B0600EA603E /* EarthquakesApp.swift */,
-				62F26B1E2AD53B0600EA603E /* ContentView.swift */,
+				62F26B2A2AD53B1F00EA603E /* Models */,
+				62F26B2F2AD53BDA00EA603E /* Views */,
 				62F26B202AD53B0700EA603E /* Assets.xcassets */,
 				62F26B222AD53B0700EA603E /* Preview Content */,
 			);
@@ -65,6 +86,39 @@
 				62F26B232AD53B0700EA603E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62F26B2A2AD53B1F00EA603E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62F26B2B2AD53B6C00EA603E /* Quake.swift */,
+				62F26B2D2AD53B8500EA603E /* Quake+Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62F26B2F2AD53BDA00EA603E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62F26B302AD53BEF00EA603E /* Quakes.swift */,
+				62F26B322AD53C6F00EA603E /* QuakeRow.swift */,
+				62F26B342AD53C7F00EA603E /* QuakeMagnitude.swift */,
+				62F26B362AD53CFE00EA603E /* ToolbarContent */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62F26B362AD53CFE00EA603E /* ToolbarContent */ = {
+			isa = PBXGroup;
+			children = (
+				62F26B372AD53D1800EA603E /* Quakes+Toolbar.swift */,
+				62F26B392AD53D4900EA603E /* SelectButton.swift */,
+				62F26B3B2AD53D5E00EA603E /* EditButton.swift */,
+				62F26B3D2AD53DB100EA603E /* RefreshButton.swift */,
+				62F26B3F2AD53DC500EA603E /* ToolbarStatus.swift */,
+				62F26B412AD53DDD00EA603E /* DeleteButton.swift */,
+			);
+			path = ToolbarContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F26B1F2AD53B0600EA603E /* ContentView.swift in Sources */,
+				62F26B3A2AD53D4900EA603E /* SelectButton.swift in Sources */,
+				62F26B402AD53DC500EA603E /* ToolbarStatus.swift in Sources */,
+				62F26B2E2AD53B8500EA603E /* Quake+Color.swift in Sources */,
+				62F26B3E2AD53DB100EA603E /* RefreshButton.swift in Sources */,
+				62F26B352AD53C7F00EA603E /* QuakeMagnitude.swift in Sources */,
+				62F26B2C2AD53B6C00EA603E /* Quake.swift in Sources */,
+				62F26B3C2AD53D5E00EA603E /* EditButton.swift in Sources */,
+				62F26B312AD53BEF00EA603E /* Quakes.swift in Sources */,
+				62F26B422AD53DDD00EA603E /* DeleteButton.swift in Sources */,
+				62F26B332AD53C6F00EA603E /* QuakeRow.swift in Sources */,
 				62F26B1D2AD53B0600EA603E /* EarthquakesApp.swift in Sources */,
+				62F26B382AD53D1800EA603E /* Quakes+Toolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +344,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
