@@ -9,6 +9,7 @@ import Foundation
 
 let validStatus = 200...299
 
+// We're adding a protocol here so that we can mock the httpData function later in XCTests
 protocol HTTPDataDownloader {
     func httpData(from: URL) async throws -> Data
 }

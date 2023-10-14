@@ -9,6 +9,7 @@ import Foundation
 
 // NSCache is thread safe, which means that it won’t corrupt the data if accessed from multiple threads
 extension NSCache where KeyType == NSString, ObjectType == CacheEntryObject {
+    // We are using the subscript to retrieve and add data to the cache
     subscript(_ url: URL) -> CacheEntry? {
         // retrieves a CacheEntryObject from the cache
         get {

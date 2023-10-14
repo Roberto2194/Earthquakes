@@ -7,12 +7,14 @@
 
 import Foundation
 
+// The Quake structure maps the decoded earthquakes
 struct Quake {
     let magnitude: Double
     let place: String
     let time: Date
     let code: String
     let detail: URL
+    // Each Quake contains a second struct QuakeLocation
     var location: QuakeLocation?
 }
 

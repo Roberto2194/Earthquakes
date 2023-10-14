@@ -30,11 +30,9 @@ struct QuakeLocation: Decodable {
     }
     
     init(latitude: Double, longitude: Double) {
-        self.properties =
-            RootProperties(products: Products(origin: [
-                Origin(properties:
-                OriginProperties(latitude: latitude, longitude: longitude))
-            ]))
+        self.properties = RootProperties(
+            products: Products(origin: [Origin(properties: OriginProperties(latitude: latitude, longitude: longitude))])
+        )
     }
 }
 
@@ -45,11 +43,12 @@ extension QuakeLocation.OriginProperties: Decodable {
     }
     
     init(from decoder: Decoder) throws {
+        // Just like we did in Quake, we first make a decoder.container with the keys
         let container = try decoder.container(keyedBy: OriginPropertiesCodingKeys.self)
+        // And then we decode each property with each key corresponding to a case in the enum
         let longitude = try container.decode(String.self, forKey: .longitude)
         let latitude = try container.decode(String.self, forKey: .latitude)
-        guard let longitude = Double(longitude),
-              let latitude = Double(latitude) else { throw QuakeError.missingData }
+        guard let longitude = Double(longitude), let latitude = Double(latitude) else { throw QuakeError.missingData }
         self.longitude = longitude
         self.latitude = latitude
     }
